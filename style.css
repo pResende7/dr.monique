@@ -65,6 +65,7 @@ body {
   padding: 20px;
   display: flex;
   justify-content: center;
+  margin-left: 450px;
 }
 .icones a {
   margin: 10px 25px 10px 25px;
