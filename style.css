@@ -2,8 +2,8 @@ html {
   width: 100%;
   height: 100%;
 }
-
 body {
+  margin: 0px;
   background-image: radial-gradient(circle at 50% -3.03%, #ffffff 0, #fffbf1 25%, #ece1d0 50%, #d9c8b0 75%, #cab297 100%);
 }
 .logo {
@@ -80,8 +80,12 @@ body {
 }
 @media (max-width: 500px) {
   .icones {
+    top: -13px;
     margin-left: 180px;
     position: relative;
+  }
+  .icones img {
+    width: 40px;
   }
   .insta {
     position: absolute;
@@ -97,13 +101,48 @@ body {
     font-size: 1.2rem;
   }
   .botoes a:first-child {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .botoes a:hover {
     width: 310px;
   }
+  .container {
+    width: 100%;;
+  }
+  .logo {
+    margin-top: 0px;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    background-image: url(./img/moniqueperfil2.jpg);
+    background-size: 110%;
+    background-position: bottom 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .logo img {
-    margin-top: -70px;
-    height: 110px;
+
+    display: none;
+  }
+  body {
+    background-image: none;
+  }
+  .titulo {
+    color: #363636;
+    margin-top: -20px;
+    box-shadow: 0px -40px 30px 30px rgba(255, 255, 255, 0.966);
+  }
+  .titulo h2 {
+    color: #505050
+  }
+  .botoes a{
+    border-color:  #cab297a2;
+    color:  #cab297;
+  }
+  .botoes a:hover {
+    color: white;
+    border: 3px solid white;
+    background-color: #cab29777;
+    transition: 0.3s;
   }
 }
