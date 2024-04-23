@@ -1,3 +1,4 @@
+@import "./contato.css";
 html {
   width: 100%;
   height: 100%;
@@ -5,6 +6,9 @@ html {
 body {
   margin: 0px;
   background-image: radial-gradient(circle at 50% -3.03%, #ffffff 0, #fffbf1 25%, #ece1d0 50%, #d9c8b0 75%, #cab297 100%);
+}
+.insta2,.face2 {
+  display: none;
 }
 .logo {
   gap: 40px;
@@ -20,7 +24,7 @@ body {
   width: auto;
   height: 150px;
 }
-.titulo {
+.titulo1 {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +32,7 @@ body {
   line-height: 15px;
   padding-bottom: 20px;
 }
-.titulo h2 {
+.titulo1 h2 {
   font-size: 0.9rem;
 }
 .botoes {
@@ -87,13 +91,11 @@ body {
   .icones img {
     width: 40px;
   }
-  .insta {
-    position: absolute;
-    right: 20px;
+  .insta, .face {
+    display: none;
   }
-  .face{
-    position: absolute;
-    right: 70px;
+  .insta2,.face2 {
+    display: inline;
   }
   .botoes a {
     width: 300px;
@@ -127,12 +129,12 @@ body {
   body {
     background-image: none;
   }
-  .titulo {
+  .titulo1 {
     color: #363636;
     margin-top: -20px;
     box-shadow: 0px -40px 30px 30px rgba(255, 255, 255, 0.966);
   }
-  .titulo h2 {
+  .titulo1 h2 {
     color: #505050
   }
   .botoes a{
